@@ -19,6 +19,7 @@ cmake(
     copts = [
         "-fexceptions",
         "-Wno-deprecated-declarations",
+        "-Wno-error",
     ],
     env = {
         "CMAKE_BUILD_TYPE": "Release",
