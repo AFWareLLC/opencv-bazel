@@ -19,6 +19,7 @@ cmake(
     copts = [
         "-fexceptions",
         "-Wno-deprecated-declarations",
+        "-Wno-deprecated-anon-enum-enum-conversion",
         "-Wno-error",
     ],
     env = {
